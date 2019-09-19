@@ -10,7 +10,7 @@ class Dog
     @@all
   end 
   
-  def self.print_all
+  def print_all
     self.all.each {|d| puts d.name}
   end 
   
